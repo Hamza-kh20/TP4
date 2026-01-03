@@ -52,9 +52,48 @@ For end-to-end (e2e) testing, run:
 ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## Structure du Projet
 
-## Additional Resources
+```
+TP4/
+├── .vscode/
+├── public/
+│   └── favicon.ico
+├── src/
+│   ├── app/
+│   │   ├── app.component.css
+│   │   ├── app.component.html
+│   │   ├── app.component.spec.ts
+│   │   ├── app.component.ts
+│   │   ├── app.config.ts
+│   │   └── app.routes.ts
+│   ├── index.html
+│   ├── main.ts
+│   └── styles.css
+├── .gitattributes
+├── .gitignore
+├── angular.json
+├── package.json
+├── package-lock.json
+├── README.md
+├── tsconfig.app.json
+├── tsconfig.json
+└── tsconfig.spec.json
+```
+## Points de Fonction Principale
+Serveur de développement local avec rechargement automatique
+Génération de composants Angular via CLI scaffolding
+Construction et compilation pour la production
+Tests unitaires avec Karma
+Tests end-to-end (e2e)
+Configuration TypeScript et gestion des dépendances npm
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-"# TP4" 
+## Pile Technologique
+Angular CLI 19.2.7
+TypeScript
+HTML/CSS
+Karma (test runner)
+Node.js/npm
+
+## Licence
+Aucune licence spécifiée
